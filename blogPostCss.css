@@ -1,0 +1,430 @@
+/* blog post css */
+
+body {
+  font-family: AppleGothic, Helvetica, sans-serif;
+  background-color: #EABF9F;
+}
+
+/* Title */
+.title {
+  display: flex;
+  border: 1px solid #000;
+  flex-flow: wrap;
+  gap: 1em 1em;
+  padding: 1em .5em .1em 1em;
+  border-radius: 15px;
+  background-color: #FAF3E0;
+  border-style: outset;
+  border-width: medium;
+  color: #B68973;
+  background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif");
+}
+
+.title p {
+  color: #1E212D;
+  text-align-last: right;
+  padding-top: 4em;
+  padding-left: 2em;
+}
+
+.title a {
+  text-decoration: none;
+  color: #1E212D;
+  font-size: 2em;
+}
+
+.title a:hover {
+  color: #B68973;
+}
+
+.title img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: aqua;
+}
+
+/* menu bar */
+.navlist {
+  margin: 20px;
+  padding: 20px;
+  background-color: #B68973;
+  list-style-type: none;
+  border-radius: 15px;
+}
+
+.navlist a {
+  color: #1E212D;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul.navlist li {
+  display: inline-block;
+  padding: 0 0.5rem;
+  min-width: 12rem;
+  text-align: center;
+}
+
+ul.navlist li:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.navlist a:hover {
+  background: #FAF3E0;
+  color: #1a1a1a;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* all main and side content */
+/* side */
+.all,
+.form {
+  border: 1px solid #000;
+  background-color: #FAF3E0;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.articleNa {
+  text-align: center;
+}
+
+#seeH a {
+  text-decoration: none;
+  color: #1E212D;
+  text-align: center;
+  /* background-color: brown; */
+}
+
+#seeH a:hover {
+  text-decoration: none;
+  color: #B68973;
+}
+
+/* main section */
+.side {
+  width: 63%;
+  padding: 10px;
+  background-color: #faf6ec;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.reside {
+  max-width: 100%;
+  padding: .3em;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  float: left;
+  background-color: #b4887f93;
+  background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif");
+}
+
+#pho1 {
+  float: right;
+  background-color: #eac09f81;
+  padding: 1em;
+  width: 20em;
+}
+
+/* .reside2 {
+  width: 63%;
+  padding: 10px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  float: right;
+  background-color: #b4887f62;
+  background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif");
+}
+
+#pho2 {
+  float: right;
+  background-color: #eac09f81;
+  padding-top: .5em;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: .5em;
+  width: 14em;
+} */
+
+.reside3 {
+  width: 63%;
+  padding: 10px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  float: right;
+  background-color: #b4887f93;
+  background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif");
+}
+
+.reside3 p {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  /* background-color: brown; */
+}
+
+#pho3 {
+  float: right;
+  background-color: #eac09f81;
+  padding: 1em;
+  width: 10em;
+}
+
+.reside4 {
+  width: 63%;
+  padding: 10px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  float: left;
+  background-color: #b4887f93;
+  background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif");
+}
+
+.reside4 p {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  /* background-color: brown; */
+}
+
+#pho4 {
+  float: left;
+  background-color: #eac09f81;
+  padding: 1em;
+  width: 10em;
+}
+
+.reside5 {
+  width: 63%;
+  padding: 10px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  float: right;
+  background-color: #b4887f93;
+  background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif");
+}
+
+.reside5 p {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  /* background-color: brown; */
+}
+
+#pho5 {
+  float: right;
+  background-color: #eac09f81;
+  padding: 1em;
+  width: 10em;
+}
+
+/* side panel */
+.main {
+  width: 17%;
+  padding: 10px;
+  background-color: #faf6ec;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif");
+}
+
+#maiph {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  max-width: 15em;
+}
+
+#simg {
+  border-radius: 5px;
+  opacity: 0.9;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  width: 15em;
+  float: right;
+}
+
+.form {
+  background-color: #faf6ec;
+  background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif");
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  width: 12em;
+  text-align: left;
+}
+
+/* .form {
+  width: 12em;
+  background-color: #faf6ec;
+  border-radius: 15px;
+  text-align: left;
+}  */
+#formt {
+  text-align: center;
+  /* background-color: red; */
+}
+
+#formt::after {
+  content: "\a";
+  white-space: pre;
+}
+
+#newsl {
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  padding-bottom: 2em;
+  padding-top: 1.5em;
+  /* text-align: center; */
+}
+
+button {
+  background-color: #b4887f93;
+  border-radius: 15px;
+  font-family: AppleGothic;
+}
+
+button:hover {
+  background-color: #b6897394;
+}
+
+#email,
+#fullname,
+input {
+  background-color: #eac09f81;
+  border-radius: 15px;
+}
+
+/* comment box */
+#comment {
+  width: 12em;
+  height: 15em;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+}
+
+#comment input {
+  width: 14em;
+  height: 12em;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+#comment::before {
+  content: "\a";
+  white-space: pre;
+}
+
+#Rpho {
+  float: left;
+  background-color: #eac09f81;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  max-width: 12em;
+  opacity: 0.9;
+}
+
+#Rpho::before {
+  content: "\a";
+  white-space: pre;
+}
+
+#Rpho::after {
+  content: "\a";
+  white-space: pre;
+}
+
+/* bottom menu bar */
+.navlistB {
+  margin: 12px;
+  padding: 12px;
+  background-color: #B68973;
+  list-style-type: none;
+  border-radius: 15px;
+
+}
+
+.navlistB a {
+  color: #1E212D;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul.navlistB li {
+  display: inline-block;
+  padding: 0 0.5rem;
+  min-width: 12rem;
+  text-align: center;
+}
+
+ul.navlistB li:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.navlistB a:hover {
+  background: #FAF3E0;
+  color: #1a1a1a;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+/* footer */
+footer {
+  border: 1px solid #000;
+  border-style: outset;
+  border-width: medium;
+  flex-flow: wrap;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #FAF3E0;
+  border-radius: 15px;
+}
+
+/* sources */
+/* https://www.tutorialbrain.com/css_tutorial/css_font_family_list/ */
+/* https://unused-css.com/blog/css-horizontal-lists/ */
+/* https://www.setlist.fm/stats/harry-styles-23d294a7.html?tour=5bd14324 */
+
+
+/* images */
+/* https://img.texasmonthly.com/2022/09/harry-styles-love-on-tour.jpg?auto=compress&crop=faces&fit=fit&fm=pjpg&ixlib=php-1.2.1&q=45 */
+/* https://static.tumblr.com/wvzujvn/oF3r5yppc/lot2022.jpg */
+/* https://media1.popsugar-assets.com/files/thumbor/n72AF8NESQqFjFL4YMMNzH7xTdU/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2022/04/18/668/n/1922564/4d712a913e96b216_Harry_Styles/i/harry-styles-gucci-jumpsuit-coachella.jpg */
+/* https://i.pinimg.com/originals/bf/81/62/bf81621511a0005d45b7f36ba73a7eeb.jpg */
+/* background-image: url("https://i.pinimg.com/originals/c0/3c/85/c03c857c1663455a882e78cc0c2509aa.gif"); */
+/* https://www.wnypapers.com/content/images//110-Ent/Harry-Styles-banner-1.jpg */
+
+/* https://www.billboard.com/wp-content/uploads/media/Harry-Styles-album-art-2017-billboard-1240.jpg?w=1024 */
+/* https://m.media-amazon.com/images/I/510dEDNhTrL._AC_SL1024_.jpg */
+/* https://media.pitchfork.com/photos/623b686c6597466fa9d6e32d/master/w_1280%2Cc_limit/Harry-Styles-Harrys-House.jpeg */
